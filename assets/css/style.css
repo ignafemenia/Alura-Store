@@ -9,7 +9,27 @@
     grid-template-columns: auto;
     grid-template-rows: 50px auto auto;
 }
+.header{
+    align-items: center;
+    display: flex;
+    grid-area: header;
+    padding: 0 2rem;
+}
+.menu__link{
+    color: #333333;
+    padding: 0.5rem 1rem;
+}
+.menu__link:hover, .menu__link:active{
+    border-bottom: 2px solid blue;
+}
 .contenido {
     grid-area: contenido;
     padding: 0 2rem;
+}
+.footer{
+    text-align: center ;
+    background: white;
+    color: #333333;
+    grid-area: footer;
+    padding: 1rem;
 }
